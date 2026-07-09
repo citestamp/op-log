@@ -2,8 +2,10 @@
 
 Append-only log of signed CiteStamp assertion and retraction events.
 
-Each `assertions-YYYY-MM.jsonl` file holds one canonical-JSON event per
-line. Every line carries an RSA signature from the asserter's published
+The genesis file `assertions.jsonl` holds the seed events; every event
+appended thereafter lands in a monthly `assertions-YYYY-MM.jsonl` file.
+To verify by hand, read `assertions.jsonl` first, then the monthly files
+in ascending order. Each file holds one canonical-JSON event per line. Every line carries an RSA signature from the asserter's published
 key and a `prev_line_hash` chaining it to the previous line, so the full
 history can be verified back to genesis by any reader.
 

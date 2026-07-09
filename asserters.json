@@ -1,0 +1,10 @@
+[
+  {
+    "asserter_id": "ICSAC-00001",
+    "issued": "2026-06-02T00:00:00+00:00",
+    "orcid_id": "https://orcid.org/0009-0009-3161-528X",
+    "public_key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvkZLZ0LRjOFdpKRNaUJ6EGKpRaCqgZW8rv/k7T5uTn2N9HQTZZMb4PpC7sKiZW4J5UMgFozhdezkpMCE0krwCtBs822kB7WGG5Z1R6DKpIJNpOKhcYBB2+u1lFmCKssVhNprLZ4KjrPJPM3gY/AjYFSsGwlS0Ys+QAvJ1zInwFAcTTC0/F7vc61kEeFs1eF6TH7JgPJbKsLxd+8bTQBYfuyYGTRHRNUrMXLE1rMet5ztVQU9pBfDp7i8HqNi/fkDJEz4Wvoo5CyXTNw9feZvM+obQUW3O+Xj81wvy3AHwkWAHgn5jbFWCJy9X+uqcl4JXtQi5F8cJs0xGnOzhlE1/wIDAQAB",
+    "revoked": null,
+    "tier": "sovereign"
+  }
+]
