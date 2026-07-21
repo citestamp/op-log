@@ -12,6 +12,23 @@ take the keys from `asserters.json`, then read `assertions.jsonl` and the
 monthly files in ascending order; the chain and every signature on it can be
 checked back to genesis by any reader.
 
+## Current state of this log
+
+As of July 2026 this log is early-stage and has a single signer. Every line
+to date was signed by CiteStamp's founder, under the sovereign identity
+`ICSAC-00001` or under his personal ORCID iD
+(`https://orcid.org/0009-0009-3161-528X`), enrolled as a second identity
+through the log's own enrollment line. This is deliberate seeding: the
+operator uses the signing mechanism on his own publications first, so the
+earliest entries are real, first-party, accountable claims rather than
+imported volume. Some of those lines assert `claim:` nodes stating the
+founder's own theoretical positions. A claim node is a position its signer
+takes in public — a signed claim, not a reviewed finding — and it receives
+no special treatment anywhere in the graph. The enrollment, revocation, and
+rotation machinery documented below is live and enforced by the verifier;
+no third-party asserter has enrolled yet. When one does, their lines appear
+here under their own key, and this section will say so.
+
 ## Verifying this log
 
 ```
@@ -102,4 +119,4 @@ is not recorded here. A rebuild restores every edge that points at a claim, but
 not the sentence the claim reads as. That gap is ours; it is stated here rather
 than discovered later.
 
-Log contents are dedicated to the public domain under CC0 1.0.
+Log contents are dedicated to the public domain under CC0 1.0 (see `LICENSE`).
